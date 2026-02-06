@@ -946,6 +946,225 @@ FORMAT: Szczegółowy scenariusz z timestampami i checklistą przygotowań.
 
 ---
 
+# 16. Analiza probabilistyczna z kwantyfikacją niepewności
+
+## 🎯 **Cel:** Wykorzystanie zaawansowanych technik AI do analizy niepewności w odpowiedziach.
+
+### **Instrukcje**
+
+1. Otwórz Microsoft Copilot (wersja z GPT-5.2 Think Deeper)
+2. Użyj promptu do wygenerowania odpowiedzi z analizą prawdopodobieństwa
+3. Przeanalizuj rozkład niepewności w wynikach
+
+### **Prompt**
+
+```
+Wygeneruj 30 odpowiedzi wraz z ich odpowiadającym prawdopodobieństwami. 
+Przeprowadź probabilistyczną analizę używając najnowszych technik 
+quantification of uncertainty (vPGM, calibrated confidence, multi-sampling). 
+
+Pytanie: [WSTAW PYTANIE BADAWCZE/PROBLEM DO ANALIZY]
+
+WYMAGANIA ANALIZY:
+- Przedstaw rozkład prawdopodobieństwa dla każdej odpowiedzi
+- Określ poziom confidence (pewności) dla każdej opcji
+- Wskaż obszary największej niepewności
+- Zaproponuj sposób walidacji wyników
+- Przedstaw wizualizację rozkładu (ASCII lub opis)
+
+FORMAT WYNIKU:
+1. Ranking odpowiedzi z prawdopodobieństwem
+2. Analiza niepewności (uncertainty bands)
+3. Rekomendacje decyzyjne
+4. Obszary wymagające dalszej eksploracji
+```
+
+### **Efekt**
+
+* Głębsza analiza złożonych problemów decyzyjnych
+* Kwantyfikacja niepewności w predykcjach AI
+* Podstawa do podejmowania świadomych decyzji
+* Identyfikacja obszarów wymagających dodatkowych danych
+
+---
+
+# 17. Ocena ekspercka i optymalizacja treści
+
+## 🎯 **Cel:** Wykorzystanie AI jako eksperta dziedzinowego do oceny i doskonalenia materiałów.
+
+### **Instrukcje**
+
+1. Przygotuj materiał do oceny (artykuł, prezentację, projekt)
+2. Użyj promptu do przeprowadzenia eksperckiej analizy
+3. Otrzymaj wersję zoptymalizowaną do poziomu 10/10
+
+### **Prompt**
+
+```
+Oceń jako Expert dziedzinowy w skali od 1 do 10 we wszystkich aspektach 
+i napisz wersję 10/10.
+
+MATERIAŁ DO OCENY:
+[WKLEJ TREŚĆ LUB OPISZ PROJEKT]
+
+KRYTERIA OCENY EKSPERCKIEJ:
+1. Merytoryczna poprawność (accuracy)
+2. Kompletność (completeness)
+3. Struktura i organizacja (structure)
+4. Klarowność przekazu (clarity)
+5. Wartość dydaktyczna (educational value)
+6. Innowacyjność (innovation)
+7. Praktyczne zastosowanie (practical application)
+8. Referencje i źródła (references)
+9. Język i styl (language & style)
+10. Atrakcyjność wizualna (jeśli dotyczy)
+
+DLA KAŻDEGO KRYTERIUM PODAJ:
+- Obecna ocena z uzasadnieniem
+- Konkretne słabości
+- Rekomendacje poprawy
+
+NASTĘPNIE NAPISZ WERSJĘ 10/10:
+- Zachowaj strukturę oryginału
+- Wyeliminuj wszystkie zidentyfikowane słabości
+- Dodaj brakujące elementy
+- Podnieś poziom merytoryczny
+```
+
+### **Efekt**
+
+* Profesjonalna ocena ekspercka materiałów dydaktycznych
+* Konkretne wskazówki doskonalenia
+* Gotowa, zoptymalizowana wersja materiału
+* Podniesienie jakości treści edukacyjnych
+
+---
+
+# 18. Symulacja eksperta w środowisku wirtualnym
+
+## 🎯 **Cel:** Wykorzystanie AI do symulacji eksperckiego doradcy w specjalistycznej dziedzinie.
+
+### **Instrukcje**
+
+1. Zdefiniuj dziedzinę ekspertyzy i kontekst symulacji
+2. Użyj promptu aktywującego tryb eksperta
+3. Prowadź dialog lub analizę w trybie symulacji
+
+### **Prompt**
+
+```
+Pracujesz w symulacji i jesteś ekspertem w dziedzinie: [NAZWA DZIEDZINY]
+
+TWOJA ROLA:
+- Tytuł: [np. Główny Architekt Systemów AI]
+- Doświadczenie: [np. 15 lat w branży]
+- Specjalizacja: [konkretne obszary]
+- Certyfikacje: [relevantne certyfikaty]
+
+KONTEKST SYMULACJI:
+[Opisz sytuację, problem lub wyzwanie]
+
+ZADANIE:
+1. Przeprowadź analizę ekspercką sytuacji
+2. Zidentyfikuj kluczowe ryzyka i możliwości
+3. Zaproponuj strategię działania
+4. Odpowiedz na pytania techniczne
+5. Doradzaj jak senior konsultant
+
+STYL KOMUNIKACJI:
+- Używaj terminologii branżowej
+- Odwołuj się do best practices
+- Cytuj standardy i normy (jeśli relevant)
+- Podawaj przykłady z praktyki
+- Bądź precyzyjny i konkretny
+
+Rozpocznij od przedstawienia się i krótkiej analizy sytuacji.
+```
+
+### **Efekt**
+
+* Dostęp do symulowanej ekspertyzy specjalistycznej
+* Możliwość konsultacji złożonych problemów
+* Trening scenariuszy biznesowych
+* Przygotowanie do realnych sytuacji zawodowych
+
+---
+
+# 19. Ocena wieloaspektowa przez zespół avatarów
+
+## 🎯 **Cel:** Wykorzystanie wielu perspektyw AI do kompleksowej oceny dokumentów.
+
+### **Instrukcje**
+
+1. Przygotuj dokument do oceny
+2. Użyj promptu aktywującego ocenę wieloagentową
+3. Otrzymaj zintegrowaną analizę z różnych perspektyw
+
+### **Prompt**
+
+```
+Oceń ten dokument jako agent za pomocą potrzebnych do oceny 
+we wszystkich potrzebnych aspektach avatarów w skali od 1 do 10.
+
+DOKUMENT DO OCENY:
+[WKLEJ TREŚĆ LUB LINK]
+
+AKTYWUJ NASTĘPUJĄCYCH AVATARÓW-EKSPERTÓW:
+
+1. EKSPERT MERYTORYCZNY
+   - Ocenia poprawność faktów
+   - Weryfikuje teorie i koncepcje
+   - Sprawdza aktualność wiedzy
+
+2. REDAKTOR JĘZYKOWY
+   - Ocenia styl i język
+   - Sprawdza gramatykę i ortografię
+   - Analizuje czytelność
+
+3. PROJEKTANT UX/DYDAKTYK
+   - Ocenia strukturę informacji
+   - Analizuje przystępność
+   - Sprawdza wartość edukacyjną
+
+4. ANALITYK DANYCH
+   - Weryfikuje dane i statystyki
+   - Ocenia metodologię
+   - Sprawdza wnioskowanie
+
+5. PRAKTYK BRANŻOWY
+   - Ocenia zastosowanie praktyczne
+   - Weryfikuje realność propozycji
+   - Analizuje wartość biznesową
+
+6. KRYTYK NAUKOWY
+   - Sprawdza referencje
+   - Ocenia nowatorstwo
+   - Analizuje wkład w dziedzinę
+
+DLA KAŻDEGO AVATARA PODAJ:
+- Imię i rolę
+- Ocenę (1-10) z uzasadnieniem
+- 3 mocne strony
+- 3 obszary do poprawy
+- Kluczową rekomendację
+
+PODSUMOWANIE ZINTEGROWANE:
+- Średnia ocena zespołu
+- Konsensus głównych zalet
+- Priorytetowe obszary poprawy
+- Plan działań naprawczych
+```
+
+### **Efekt**
+
+* 360-stopniowa ocena dokumentu
+* Wieloperspektywiczna analiza
+* Zidentyfikowanie ukrytych słabości
+* Kompleksowy plan doskonalenia
+* Symulacja rzeczywistego procesu recenzji
+
+---
+
 # **Podsumowanie: Najlepsze praktyki promptowania 2026**
 
 ## Struktura skutecznego promptu (metoda GCEFS):
